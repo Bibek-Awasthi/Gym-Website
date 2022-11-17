@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;1,400&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #ffff;
+}
+body{
+ width: 100vw;
+ height: 100vh;
+ background: url('./gym.jpg');
+ background-repeat: no-repeat;
+ background-position: top;
+ background-size: cover;
+}
+.left{
+    position: absolute;
+    left: 30px;
+    top: 20px;
+width: 150px;
+/* border: 2px solid red; */
+}
+/* .left .logo{
+    width: 200px;
+    height: 200px;
+} */
+.left img{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    padding: 3px 6px;
+   
+}
+.left .search-btn{
+    position: absolute;
+    top: 20px;
+    left: 130px;
+    display: inline-block;
+}
+.search-btn input{
+    display: inline-block;
+    margin: 3px 10px;
+    padding: 6px 16px;
+    border-radius: 8px;
+    color: #000;
+    font-size: 14px;
+}
+.search-btn .btn{
+    margin: 5px 12px;
+    display: inline-block;
+}
+.mid{
+    display: block;
+    width: 600px;
+    margin: 20px auto;
+/* border: 2px solid green; */
+}
+.navbar{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+.navbar li{
+    display: inline-block;
+list-style: none;
+margin: 3px 6px;
+padding: 3px 10px;
+}
+.navbar li a{
+    text-decoration: none;
+    color: #ffff;
+    font-size: 23px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all ease-in-out 0.6s;
+}
+.navbar li a:hover{
+    color: grey;
+    text-decoration: underline;
+}
+.navbar li a:active{
+    color: crimson;
+    text-decoration: line-through;
+}
+.right{
+    position: absolute;
+    right: 30px;
+    top: 26px;
+ width: 260px;
+/* border: 2px solid yellow; */
+}
+.btn{
+    margin: 0px 12px;
+    padding: 3px 12px;
+    border: 2px dashed coral;
+    color: #fff;
+    background-color: rgba(65, 250, 4, 0.831);
+    font-size: 15px;
+    font-weight: bold;
+  border-radius: 8px;
+}
+ .btn:hover{
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+/* text  */
+.text{
+    width: 60%;
+    margin: 45px auto;
+    text-align: center;
+}
+.text h2{
+    color: rgba(247, 164, 9, 0.949);
+    margin-bottom: 0px;
+    font-size: 60px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+.text h4{
+    margin: 1px 0;
+    font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.text p{
+    font-size: 23px;
+    margin-top: 6px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+     background-color: rgb(8, 220, 239);
+    /* border: 2px solid red; */
+    width: 45%;
+    margin: 20px auto;
+    height: 250px;
+}
+.container h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 6px;
+}
+.container form{
+    /* border: 2px solid red; */
+    padding: 8px 12px;
+    width: 95%;
+    height: 80%;
+    margin: 10px auto;
+}
+.form-group{
+    display: inline-block;
+    width: 250px;
+    margin: 3px 0px;
+    padding: 2px 6px;
+    color: #000;
+}
+#radio{
+    /* display: inline-block; */
+    /* width: 60px; */
+}
+#reset{
+    margin: 0px 30px;
+    display: inline-block;
+    color: blue;
+    width: 10px;
+}
+#submit{
+    margin: 0px 25px;
+    width: 20px;
+    color: blue;
+    display: inline-block;
+}
+.form-group input{
+    color: #000;
+    padding: 3px 0px;
+    font-size: 12px;
+    border-radius: 5px;
+}
